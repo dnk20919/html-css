@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background-color: #000;
+    font-family: Tahoma, sans-serif;
+    color: #fff;
+}
+
+.wrapper{
+    margin: 1% 10%;
+    padding: 5%;
+    background: url(/img/background.png) no-repeat;
+    background-size: 100%;
+}
+
+/* HEADER */
+
+header{
+    height: 20%;
+    position: relative;
+}
+
+.logo{
+    width: 284px;
+}
+
+.contact{
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.title{
+    text-align: left;
+    font-size: 16px;
+}
+
+.phone{
+    text-align: left;
+    font-size: 14px;
+}
+
+.e-mail a{
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* CONTENT */
+
+.content{
+    padding-top: 1%;   
+}
+
+/* .firstline{
+   max-width: 100%; 
+} */
+
+/* INDIA */
+
+.india{
+    display: inline-block;
+}
+
+.photoIndia{
+    border: 5px solid #9b9b9b;
+}
+
+.india p{
+    text-align: center;
+}
+
+/* NEPAL */
+
+.nepal{
+    display: inline-block;
+    padding: 0 6.5%;   
+}
+
+.photoNepal{
+    border: 5px solid #9b9b9b;
+}
+
+.nepal p{
+    text-align: center;
+}
+
+/* TIBET */
+
+.tibet{
+    display: inline-block;
+}
+
+.photoTibet{
+    border: 5px solid #9b9b9b;
+}
+
+
+.tibet p{
+    text-align: center;
+}
+
+.secondline{
+    margin-top: 50px;
+}
+
+/* BHUTAN */
+
+.bhutan{
+    display: inline-block;    
+}
+
+.photoBhutan{
+    border: 5px solid #9b9b9b;
+}
+
+.bhutan p{
+    text-align: center;
+}
+
+/* SRI LANKA */
+
+.sriLanka{
+    display: inline-block;
+    padding: 0 6.5%;
+}
+
+.photoSriLanka{
+    border: 5px solid #9b9b9b;
+}
+
+.sriLanka p{
+    text-align: center;
+}
+
+/* MALDIVES */
+
+.maldives{
+    display: inline-block;
+}
+
+.photoMaldives{
+    border: 5px solid #9b9b9b;
+}
+
+.maldives p{
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 155px;  
+}
+
+.copyright{
+    width: max-content;
+    padding: 0 35%;
+}
+
+
+
+
