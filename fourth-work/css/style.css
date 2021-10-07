@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url('/fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('/fonts/helveticaneuecyr-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #daecf5;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1215px;
+    margin: 0 auto;
+    background-image: url(/img/Background.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #074986;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #4eabda;
+    padding: 12px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #4eabda;
+    color: #fff;
+}
+
+.myOffers{
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    border-left: 1px solid #4eabda;
+}
+
+.myOffers a{
+    margin-left: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.myOffers:hover{
+    background-image: url(/img/bg-btn.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-right: 10px;
+}
+
+.login a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.login:hover{
+    text-decoration: underline;
+    background-image: url(/img/bg-btn.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* FORMS */
+
+.forms{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 560px;
+    height: 613px;
+    background-color:rgba(0, 0, 0, 0.60);
+    margin: 217px 302px 202px 352px;
+}
+
+.forms__title{
+    color: #fff;
+    border-bottom: 2px solid rgba(219, 217, 217, 0.925);
+    text-align: center;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.forms__loginFB{
+    position: relative;
+    width: 276px;
+    margin: 35px 75px;
+}
+
+.forms__loginFB span{
+    position: absolute;
+    left: 128px;
+    top: 43px;
+    color: rgb(153, 153, 153);
+}
+
+form{
+    width: 276px;
+    line-height: 2.8;
+    margin-left: 75px;
+    margin-top: -20px;
+}
+
+form input{
+    width: 100%;
+    height: 28px;
+    padding-left: 10px;
+    background-color: #000;
+}
+
+form input:focus{
+    background-color: #1b5288;
+    color: #fff;
+    box-shadow: -1px 0px 24px -1px rgba(78,171,218,0.75);   
+}
+
+.forms__send{
+    width: 276px;
+    line-height: 2.8;
+    margin-left: 75px;
+    padding-left: 25px;
+    color: #fff;
+}
+
+button{
+    height: 35px;
+    border-radius: 5px;
+    background-image: url(/img/bg-btn.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5px;
+    margin-left: 150px;
+    color: #fff;
+}
+
+footer{
+    width: 350px;
+    margin-left: 35px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer p{
+    color: #fff;
+    font-size: 12px;
+}
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
